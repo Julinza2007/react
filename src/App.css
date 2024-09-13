@@ -1,0 +1,194 @@
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img{
+  width: 25%;
+  height: 25%;
+  border-radius: 10%;
+  margin: 0 10px;
+  animation: none;
+ 
+}
+
+img.kirito:hover{
+  animation: kirito-spin infinite 5s linear alternate;
+  cursor: url("imagenes/trollface.png"), auto;
+}
+
+img.aincrad:hover{
+  animation: aincrad-hearthing infinite 3s linear alternate;
+  cursor: url("imagenes/trollface.png"), auto;
+}
+
+@keyframes kirito-spin {
+  from {
+    transform: rotate(0deg) scale(1);
+  }
+  to {
+    transform: rotate(360deg) scale(1.5);
+  }
+}
+
+@keyframes aincrad-hearthing {
+  25%{
+    transform: scale(1.3);
+  }
+  50%{
+    transform:scale(1);
+  }
+  75%{
+    transform: scale(1.3);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+
+nav.nav{
+  margin-top: 100px;
+  text-align: center;
+}
+
+nav.nav ul.ul li{
+  background-color: black;
+  list-style: none;
+  margin-top: 10px;
+  display: inline-block;
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  transition: transform 0.5s ease;
+}
+
+nav.nav ul.ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+nav.nav ul.ul li:hover{
+  transform: scale(1.2);
+  border-color: orange;
+}
+nav.nav ul.ul li:hover a{
+  color: orangered;
+}
+
+div#alazar{
+  text-align: center;
+  margin-top: 100px;
+}
+
+div#alazar h1{
+  display: inline-block;
+}
+
+div#alazar button{
+  border: 2px solid black;
+  padding: 5px 20px 5px 20px;
+  color: white;
+  margin-right: 100px;
+}
+div#alazar button:hover{
+  cursor: url('./imagenes/cosas.png'), auto;
+}
+
+div.productos {
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 200px;
+  display: flex; /* Agrega esto */
+  flex-wrap: wrap; /* Agrega esto para que los elementos se envuelvan en una nueva línea si no caben en la misma línea */
+}
+
+div.productos div.producto {
+  align-items: center;
+  flex: 1; /* Agrega esto para que cada elemento .producto ocupe un espacio igual en la línea. */
+}
+
+div.productos div.producto img {
+  animation: none;
+  width: 40%; 
+  height: auto;
+}
+
+div.productos div.producto img:hover{
+  animation: spin-productos infinite 1.2s linear;
+  cursor: url("imagenes/pesos.png"), auto;
+}
+
+div.productos div.producto h2{
+  animation:none;
+}
+
+div.productos div.producto h2:hover{
+  animation: sacudir-h2 infinite 5.5s linear alternate;
+  cursor:context-menu;
+}
+
+@keyframes spin-productos {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes sacudir-h2 {
+  0% {
+    color: #000;
+    transform: translateY(0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    color: #f00;
+    transform: translateY(-10px);
+  }
+  20%, 40%, 60%, 80% {
+    color: #0f0;
+    transform: translateY(10px);
+  }
+  15%, 25%, 35%, 45%, 55%, 65%, 75%, 85% {
+    color: #00f;
+    transform: translateY(5px);
+  }
+  100% {
+    color: #000;
+    transform: translateY(0);
+  }
+}
+
+button#desplegar{
+  margin: 0 auto;
+  display: block;
+  border: 2px solid black;
+  padding: 5px 20px 5px 20px;
+  color: black;
+  margin-top: 100px;
+}
+button#desplegar:hover{
+  font-size: 1.5em;
+  font-weight: bold;
+  cursor: pointer;
+  color:white;
+  text-shadow: 1px 1px 1px white;
+}
+
+
+div.lista{
+  background-color: black;
+}
+
+div.lista ul.item{
+  list-style: none;
+  margin-bottom: 10px;
+}
+div.lista ul.item li img{
+  width: 10%;
+  height: auto;
+}
+
