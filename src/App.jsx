@@ -7,6 +7,7 @@ import Navegacion from './Navegacion.jsx'
 import AlAzar from './AlAzar.jsx'
 import Productos from './Productos.jsx'
 import Productos1 from './Productos1.jsx'
+import Reloj from './Reloj.jsx'
 
 const numeros = [1, 2, 3, 4, 5]
 const dobles = numeros.map(x => x*2);
@@ -22,6 +23,7 @@ function App() {
     <AlAzar/>
     <Productos/>
     <Productos1/>
+    <Reloj/>
     </div>
   )
 }
