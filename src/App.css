@@ -169,13 +169,14 @@ button#desplegar{
   padding: 5px 20px 5px 20px;
   color: black;
   margin-top: 100px;
+  transition: transform 0.35s ease;
 }
 button#desplegar:hover{
-  font-size: 1.5em;
-  font-weight: bold;
+  transform :  scale(1.3);
   cursor: pointer;
   color:white;
-  text-shadow: 1px 1px 1px white;
+  text-shadow: 2px 2px 4px white;
+  border: 2px solid beige;
 }
 
 
@@ -192,3 +193,51 @@ div.lista ul.item li img{
   height: auto;
 }
 
+
+div#reloj{
+  margin-top: 100px;
+}
+div#reloj h1{
+  display: inline-block;
+  animation: none;
+}
+div#reloj h1:hover{
+  animation: trasladar infinite 3s linear alternate;
+  cursor:context-menu;
+}
+
+@keyframes trasladar {
+  from {
+    transform: translateX(0vw);
+  }
+  
+to {
+  transform: translateX(calc(100vw - 110%));
+}
+}
+
+div#cronometro{
+  margin: 0 auto;
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  background : linear-gradient(to bottom, #333, #555);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+div#cronometro h1{
+  display: inline-block;
+  color: white;
+  font-size: 5em;
+  font-family: 'Digital-7';
+}
+
+@media (max-width: 600px) {
+  div#reloj h1{
+    font-size: 20px;
+  }
+}

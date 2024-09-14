@@ -5,8 +5,8 @@ const links = [
     {url: 'https://julinza2007.github.io/julinza/', text:'Pagina PESSI'}
 ];
 
-const link = links.map(l => (
-   <li>
+const link = links.map((l, index) => (
+   <li key={index}>
    <a href= {l.url}>{l.text}</a>
    </li>
    ));
@@ -21,6 +21,7 @@ return(
 
 )
 }
+
 
 export default Navegacion
 
