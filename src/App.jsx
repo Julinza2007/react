@@ -9,6 +9,7 @@ import Productos from './Productos.jsx'
 import Productos1 from './Productos1.jsx'
 import Reloj from './Reloj.jsx'
 import Cronometro from './Cronometro.jsx'
+import Lista from './Lista.jsx'
 
 const numeros = [1, 2, 3, 4, 5]
 const dobles = numeros.map(x => x*2);
@@ -16,7 +17,6 @@ console.log(dobles);
 function App() { 
 
 
- 
   return (
     <div>
     <Encabezado hola="Buenas tardes" kirito="kirito" aincrad="aincrad"/>
@@ -26,6 +26,7 @@ function App() {
     <Productos1/>
     <Reloj/>
     <Cronometro/>
+    <Lista/>
     </div>
   )
 }
