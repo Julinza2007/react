@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react'
 
 function AlAzar() {
   const [numero, setNumero] = useState(0);

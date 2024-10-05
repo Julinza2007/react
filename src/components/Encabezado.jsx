@@ -1,5 +1,5 @@
-import kirito from './imagenes/kiritomatando.jpg'
-import aincrad from './imagenes/aincrad.png'
+import kirito from '../imagenes/kiritomatando.jpg'
+import aincrad from '../imagenes/aincrad.png'
 
 function Encabezado(props) {
     return (

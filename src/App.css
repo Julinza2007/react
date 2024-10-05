@@ -241,3 +241,52 @@ div#cronometro h1{
     font-size: 20px;
   }
 }
+
+div#trivia h2{
+  animation: none;
+}
+div#trivia h2:hover{
+  animation: trasladar-color infinite 8s linear alternate;
+  cursor:context-menu;
+}
+
+@keyframes trasladar-color {
+  0% {
+    color: #000;
+  }
+  10% {
+    color: #f00;
+  }
+  20% {
+    color: #0f0;
+  }
+  30% {
+    color: #00f;
+  }
+  40% {
+    color: #ff0;
+  }
+  50% {
+    color: #0ff;
+  }
+  60% {
+    color: #f0f;
+  }
+  70% {
+    color: #fff;
+  }
+  80% {
+    color: #000;
+  }
+  90% {
+    color: #f00;
+  }
+  100% {
+    color: #000;
+  }
+}
+
+
+div#trivia button.question{
+  color:black;
+}
