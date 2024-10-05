@@ -19,7 +19,7 @@ useEffect(() => {
 
     function handleAnswer(answer){
         if (trivias[index].correct_answer === answer) {
-            setPuntaje(puntaje + 1);
+            setPuntaje(puntaje =>  puntaje + 1);
         }
         setIndex(index + 1);
     };
