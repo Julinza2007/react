@@ -5,10 +5,10 @@ function Encabezado(props) {
     return (
         <header className="header">
                 <h1>{props.kirito}</h1>
-            <img src={kirito} className="kirito" alt={props.kirito} />
+            <img src={kirito} draggable="false" className="kirito" alt={props.kirito} />
             
                 <h1>{props.aincrad}</h1>
-            <img src={aincrad} className="aincrad" alt={props.aincrad} />
+            <img src={aincrad} draggable="false" className="aincrad" alt={props.aincrad} />
         </header>
     )
 }

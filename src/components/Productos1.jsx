@@ -12,7 +12,7 @@ function Productos1() {
   const producto = productos.map(produ => (
     <ul key={produ.producto} className="item">
       <li><h2>{produ.producto}</h2></li>
-      <li><img src={produ.img}></img></li>
+      <li><img src={produ.img} draggable="false"></img></li>
       <li><h3>Precio: ${produ.precio}</h3></li>
       <li><p>Descripción: {produ.descripcion}</p></li>
     </ul>

@@ -12,13 +12,31 @@ import Cronometro from './components/Cronometro.jsx'
 import Lista from './components/Lista.jsx';
 import Trivia from './components/Trivia.jsx';
 
-const numeros = [1, 2, 3, 4, 5]
-const dobles = numeros.map(x => x*2);
-console.log(dobles); 
-function App() {
 
+function App() {
+  const [count, setCount] = useState(0);
+  const [r, setR] = useState(255);
+  const [g, setG] = useState(255);
+  const [b, setB] = useState(255);
+  const handleClick = () => {
+    setCount(count + 1);
+    setR(Math.floor(Math.random() * 255 + 1));
+    setG(Math.floor(Math.random() * 255 + 1));
+    setB(Math.floor(Math.random() * 255 + 1));
+  }
   return (
     <div>
+      <p style={{
+        color: `rgb(${r}, ${g}, ${b})`,
+        marginLeft: count < 92 ? count + '%' : setCount(0),
+        cursor: 'pointer',
+        userSelect: 'none'
+
+      }} 
+        onClick={handleClick}
+        >
+          Hola, presioname. {count != 0 ? count : ''}
+      </p>
     <Encabezado hola="Buenas tardes" kirito="kirito" aincrad="aincrad"/>
     <Navegacion/>
     <AlAzar/>

@@ -15,11 +15,11 @@ useEffect(() => {
         })
         .then(data => setTrivias(data.results))
         .catch(error => console.error('Error fetching data:', error));
-}, []);
+}, []); // El array vacío indica de que no hay dependencias, por lo que solo se va a ejecutar el código cuando se renderiza el componente por primera vez.
 
     function handleAnswer(answer){
         if (trivias[index].correct_answer === answer) {
-            setPuntaje(puntaje =>  puntaje + 1);
+            setPuntaje(puntaje + 1);
         }
         setIndex(index + 1);
     };
@@ -30,8 +30,8 @@ useEffect(() => {
                 <div>
                     <h2>Pregunta Numero {index + 1}</h2>
                     <h3>{trivias[index].question}</h3>
-                    <button class='question' onClick={() => handleAnswer('True')}>Verdadero</button>
-                    <button class='question' onClick={() => handleAnswer('False')}>Falso</button>
+                    <button className='question' onClick={() => handleAnswer('True')}>Verdadero</button>
+                    <button className='question' onClick={() => handleAnswer('False')}>Falso</button>
                 </div>
             ) : (
                 <h2>Tu puntaje es: {puntaje}</h2>

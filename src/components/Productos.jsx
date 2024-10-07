@@ -8,7 +8,7 @@ const producto = productos.map((produ, index) => (
     console.log('este es el index de cada producto flaco: ' + index),
   <div key={index} className="producto">
     <h2>{produ.producto}</h2>
-    <img src={produ.img}></img>
+    <img src={produ.img} draggable="false"></img>
     <h3>Precio: ${produ.precio}</h3>
     <p>Descripción: {produ.descripcion}</p>
   </div>
