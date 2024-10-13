@@ -11,6 +11,7 @@ import Reloj from './components/Reloj.jsx'
 import Cronometro from './components/Cronometro.jsx'
 import Lista from './components/Lista.jsx';
 import Trivia from './components/Trivia.jsx';
+import SAO from './components/SAO.jsx';
 
 
 function App() {
@@ -51,7 +52,8 @@ function App() {
     <div id='trivia' style={{textAlign:'center', marginTop:'100px', marginBottom: '100px'}}>
     <Trivia/>
     </div>
-
+    
+    <SAO/>
 
     </div>
   );

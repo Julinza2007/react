@@ -1,0 +1,185 @@
+{
+    "characters": [
+      {
+        "name": "Kazuto Kirigaya (Kirito)",
+        "age": 17,
+        "profession": "Beater",
+        "typeOfSword": "Dual Blades",
+        "img": "https://images6.alphacoders.com/791/thumb-1920-791998.png",
+        "description": "Es el protagonista y es un hábil jugador de MMOs. Es conocido como un beater, o Kirito el espadachín negro.",
+        "link": "https://swordartonline.fandom.com/es/wiki/Kazuto_Kirigaya"
+      },
+      {
+        "name": "Yuuki Asuna (Asuna)",
+        "age": 17,
+        "profession": "Vice Commander of Knights of the Blood Oath",
+        "typeOfSword": "Rapier",
+        "img": "https://www.anmosugoi.com/wp-content/uploads/2018/12/asuna6.jpg",
+        "description": "Usuaria hábil con su estoque, conocida como destello veloz justamente por su velocidad de golpeo. En su momento, fue Sub-líder del gremio de los Caballeros de la Hermandad de Sangre.",
+        "link": "https://swordartonline.fandom.com/es/wiki/Asuna_Yuuki"
+      },
+      {
+        "name": "Ryoutarou Tsuboi (Klein)",
+        "age": 24,
+        "profession": "Guild Leader of Fuurinkazan",
+        "typeOfSword": "Katana",
+        "img": "https://i.pinimg.com/736x/2a/07/0d/2a070d9963dacb5c74f240f421b8132f.jpg",
+        "description":"Es el líder del gremio Fuurinkazan, y es el primer amigo de Kirito en SAO." ,
+        "link":"https://swordartonline.fandom.com/es/wiki/Ryoutarou_Tsuboi"
+      },
+      {
+        "name": "Leafa",
+        "age": 16,
+        "profession": "Sylph Swordswoman",
+        "typeOfSword": "One-Handed Sword",
+        "img": "https://avatarfiles.alphacoders.com/288/thumb-1920-288438.png",
+        "description":"Jugadora de ALfheim Online. Quien sorprendentemente se enamora de su primo dos veces. La segunda vez sin saber que Kirito era su primo." ,
+        "link":"https://swordartonline.fandom.com/es/wiki/Suguha_Kirigaya"
+      },
+      {
+        "name": "Shino Asada (Sinon)",
+        "age": 16,
+        "profession": "Sniper",
+        "typeOfSword": "Photon Sword",
+        "img": "https://i0.wp.com/operationrainfall.com/wp-content/uploads/2018/08/sao-ii-sinon-vs-behemoth.jpg?ssl=1",
+        "description":"Ella es considerada la mejor fracontiradora de Gun Gale Online. La apodan Hecate debido a su arma PGM Ultima Ratio Hecate II," ,
+        "link":"https://swordartonline.fandom.com/es/wiki/Shino_Asada"
+      },
+      {
+        "name": "Yui",
+        "age": "N/A",
+        "profession": "AI Program",
+        "typeOfSword": "None",
+        "img": "https://picfiles.alphacoders.com/259/thumb-1920-259763.jpg",
+        "description":"Es la hija adoptiva de Kirito y Asuna. Fue creada como la primera versión del Programa de Asesoramiento de Salud Mental de Sword Art Online",
+        "link":"https://swordartonline.fandom.com/es/wiki/Yui"
+      },
+      {
+        "name": "Eugeo",
+        "age": 17,
+        "profession": "Swordsman",
+        "typeOfSword": "Blue Rose Sword",
+        "img": "https://w0.peakpx.com/wallpaper/896/149/HD-wallpaper-sword-art-online-eugeo-characters-japanese-manga-portrait-art-main-character.jpg",
+        "description":"Espadachin del mundo Underworld, antes leñador del Pueblo Rulid.",
+        "link":"https://swordartonline.fandom.com/es/wiki/Eugeo"
+      },
+      {
+        "name": "Alice Schuberg",
+        "age": 19,
+        "profession": "Integrity Knight",
+        "typeOfSword": "Fragrant Olive Sword",
+        "img": "https://i.pinimg.com/736x/03/2d/20/032d2029a195be0210611df6956e5d6b.jpg",
+        "description":"Caballera que se crió en el Pueblo Rulid del mundo Underworld." ,
+        "link":"https://swordartonline.fandom.com/es/wiki/Alice_Schuberg"
+      },
+      {
+        "name": "Keiko Ayano (Silica)",
+        "age": 14,
+        "profession": "Beast Tamer",
+        "typeOfSword": "Dagger",
+        "img": "https://i.pinimg.com/originals/a3/fe/3c/a3fe3c082435182d30d61beb90b1d289.png",
+        "description":"Ella es la primera domadora de bestias de Sword Art Online. Tiene un Dragón Emplumado como mascota llamado Pina." ,
+        "link":"https://swordartonline.fandom.com/es/wiki/Keiko_Ayano"
+      },
+      {
+        "name": "Andrew Gilbert Mills (Agil)",
+        "age": 27,
+        "profession": "Merchant",
+        "typeOfSword": "Battle Axe",
+        "img": "https://i.redd.it/g3xcf62flyn41.jpg",
+        "description":"Es un mercader que tiene un negocio en el piso 50 en SAO. El lema de su tiendaes es \"compra barato y vende barato\"" ,
+        "link":"https://swordartonline.fandom.com/es/wiki/Andrew_Gilbert_Mills"
+      },
+      {
+        "name": "Lisbeth",
+        "age": 17,
+        "profession": "Blacksmith",
+        "typeOfSword": "Mace",
+        "img": "https://i.pinimg.com/736x/5f/7d/c8/5f7dc8a0ecbb47d6c000d788810adf5a.jpg",
+        "description":"" ,
+        "link":""
+      },
+      {
+        "name": "Yuuki",
+        "age": 15,
+        "profession": "Swordswoman",
+        "typeOfSword": "Holy Sword",
+        "img": "https://c4.wallpaperflare.com/wallpaper/541/555/737/anime-anime-girls-sword-art-online-konno-yuuki-wallpaper-preview.jpg",
+        "description":"" ,
+        "link":""
+      },
+      {
+        "name": "Sachi",
+        "age": 16,
+        "profession": "Swordswoman",
+        "typeOfSword": "One-Handed Sword",
+        "img": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8136fe7f-8f14-4b94-96a2-c709148df9cc/de5h0lj-7484990c-c430-457e-962f-83460f12f429.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzgxMzZmZTdmLThmMTQtNGI5NC05NmEyLWM3MDkxNDhkZjljY1wvZGU1aDBsai03NDg0OTkwYy1jNDMwLTQ1N2UtOTYyZi04MzQ2MGYxMmY0MjkucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.9EceCLwYVuVDWZIUw305OFZEoAyGVTWouF-XI-h_t18",
+        "description":"" ,
+        "link":""
+      },
+      {
+        "name": "Kuradeel",
+        "age": 25,
+        "profession": "Knights of the Blood Oath",
+        "typeOfSword": "Two-Handed Sword",
+        "img": "https://i.pinimg.com/736x/9f/54/d0/9f54d0af0b67478c27620c5d3ec5ed17.jpg",
+        "description":"" ,
+        "link":""
+      },
+      {
+        "name": "Heathcliff",
+        "age": 28,
+        "profession": "Commander of Knights of the Blood Oath",
+        "typeOfSword": "Sword and Shield",
+        "img": "https://mdzanime.wordpress.com/wp-content/uploads/2012/09/33.jpg?w=584",
+        "description":"" ,
+        "link":""
+      },
+      {
+        "name": "Philia",
+        "age": 18,
+        "profession": "Treasure Hunter",
+        "typeOfSword": "Dagger",
+        "img": "https://i.namu.wiki/i/JDGzFXIP8nfE3kMO4GktQRq6K0bFuruVYKwUsk8xUsCl_NUkGhcu-huACATGvOO5mNjGicKxRqJ0svhoKJURPw.webp",
+        "description":"" ,
+        "link":""
+      },
+      {
+        "name": "Kizmel",
+        "age": "Unknown",
+        "profession": "Dark Elven Knight",
+        "typeOfSword": "Elven Longsword",
+        "img": "https://i0.wp.com/operationrainfall.com/wp-content/uploads/2016/09/sao-hollow-realization-kizmel-cg-featured.jpg?fit=640%2C360&ssl=1",
+        "description":"" ,
+        "link":""
+      },
+      {
+        "name": "Eiji",
+        "age": 22,
+        "profession": "Former Member of Sleeping Knights",
+        "typeOfSword": "Dual Wielding",
+        "img": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d74ce870-9d4d-41db-8986-78c57b3f5400/de7dnwt-615ae637-1f65-4f88-90b2-406934014008.png/v1/fill/w_1280,h_1280,q_80,strp/eiji_nochizawa___sword_art_online__ordinal_scale_by_ariscchi_de7dnwt-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcL2Q3NGNlODcwLTlkNGQtNDFkYi04OTg2LTc4YzU3YjNmNTQwMFwvZGU3ZG53dC02MTVhZTYzNy0xZjY1LTRmODgtOTBiMi00MDY5MzQwMTQwMDgucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.fsYursUB-GsJSN6pY4y6cithCpBhyOmr09nFFS9uXQQ",
+        "description":"" ,
+        "link":""
+      },
+      {
+        "name": "Suguha",
+        "age": 16,
+        "profession": "Sylph Warrior",
+        "typeOfSword": "Katana",
+        "img": "https://preview.redd.it/what-are-your-honest-thoughts-about-suguha-kirigaya-v0-n2btxztmx41d1.jpg?width=736&format=pjpg&auto=webp&s=80d792dcca54b16478551ebe2da902408a862d10",
+        "description":"" ,
+        "link":""
+      },
+      {
+        "name": "Argo",
+        "age": 17,
+        "profession": "Information Broker",
+        "typeOfSword": "Dagger",
+        "img": "https://image.cdn2.seaart.ai/static/12461358a1ff4e7e422413712b67ab58/20231015/12d195bde141db6687d783c7e1673dfd_low.webp",
+        "description":"" ,
+        "link":""
+      }
+    ]
+  }
+  
